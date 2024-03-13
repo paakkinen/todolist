@@ -40,4 +40,4 @@ async function deleteKitty(id) {
         console.error("Objektin poistaminen epäonnistui!: ", error);
         throw error;
     }
-}
+}module.exports = { getAllKitties, saveKitty, deleteKitty }; 

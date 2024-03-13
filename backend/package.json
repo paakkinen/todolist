@@ -5,9 +5,24 @@
     "debug": "^4.3.4",
     "express": "^4.18.3",
     "http-error": "^0.0.6",
-    "mongodb": "^6.4.0",
+    "mo": "^1.7.3",
+    "mongodb": "^6.5.0",
     "mongoose": "^8.2.1",
     "morgan": "^1.10.0",
-    "node-modules": "^1.0.1"
-  }
+    "node": "^21.7.1",
+    "node-modules": "^1.0.1",
+    "react-scripts": "^5.0.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

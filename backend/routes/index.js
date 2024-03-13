@@ -77,3 +77,4 @@ res.status(500).json({ status: "ERROR 500" });
 }
 
 })
+module.exports = router;
